@@ -28,6 +28,6 @@ Project created and best viewed in [Jupyter Notebooks](https://www.anaconda.com/
 > Pros : Performance increase of CRUD functions. Data normalization.
 > Cons : More complex ETL configuration (order of operations). Extraneous fact table for taxonomy only. Slight performance hit for reporting queries. Fact table needs to be your anchor for all queries.
 
-[Learn more about me](shorturl.at/ruRV8)
+[Learn more about me](https://shorturl.at/ruRV8)
 
 :)
