@@ -1,6 +1,0 @@
-Q: Now imagine this is a production ETL process. How would you design it? What tests would you put in place?
-
-A:
-I would use business requirements to drive data quality tests and data formatting requirements before a record would get written to the source database. 
-
-I would orchestrate the ETL workflow to be idempotent to ensure all CRUD functions were able to be performed successfully before anything is actually executed. This prevents problems with failures happening in the middle of the process. If anything failed, alerts would be in place to let the responsible parties aware of the failure so swift intervention could take place. Since the process is idempotent, once the issue is fixed, the workflow can be rerun without fear of corrupting data.
